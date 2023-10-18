@@ -8,7 +8,7 @@ const OrdersCard = ({ totalPrice, totalProducts }) => {
   }
 
   return (
-    <div className='flex justify-between items-center mb-3 border border-black p-4 w-80'>
+    <div className='flex justify-between items-center mb-3 border border-black p-4 w-80 rounded-lg'>
       <div className='flex justify-between w-full'>
         <p className='flex flex-col'>
           <span className='font-light'>01.02.23</span>
