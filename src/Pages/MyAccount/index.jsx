@@ -47,35 +47,35 @@ function MyAccount() {
     return (
       <form ref={form} className='flex flex-col gap-4 w-80'>
         <div className='flex flex-col gap-1'>
-          <label htmlFor="name" className='font-light text-sm'>Your name: </label>
+          <label htmlFor='name' className='font-light text-sm'>Your name: </label>
           <input
-            type="text"
-            id="name"
-            name="name"
+            type='text'
+            id='name'
+            name='name'
             defaultValue={parsedAccount.name}
-            placeholder="Luis"
+            placeholder='Luis'
             className='rounded-lg border border-black placeholder:font-light placeholder:text-sm placeholder:text-black/60 focus:outline-none py-2 px-4'
           />
         </div>
         <div className='flex flex-col gap-1'>
-          <label htmlFor="email" className='font-light text-sm'>Your email: </label>
+          <label htmlFor='email' className='font-light text-sm'>Your email: </label>
           <input
-            type="text"
-            id="email"
-            name="email"
+            type='text'
+            id='email'
+            name='email'
             defaultValue={parsedAccount.email}
-            placeholder="luis805@gmail.com"
+            placeholder='luis805@gmail.com'
             className='rounded-lg border border-black placeholder:font-light placeholder:text-sm placeholder:text-black/60 focus:outline-none py-2 px-4'
           />
         </div>
         <div className='flex flex-col gap-1'>
-          <label htmlFor="password" className='font-light text-sm'>Your password: </label>
+          <label htmlFor='password' className='font-light text-sm'>Your password: </label>
           <input
-            type="text"
-            id="password"
-            name="password"
+            type='text'
+            id='password'
+            name='password'
             defaultValue={parsedAccount.password}
-            placeholder="******"
+            placeholder='******'
             className='rounded-lg border border-black placeholder:font-light placeholder:text-sm placeholder:text-black/60 focus:outline-none py-2 px-4'
           />
         </div>
@@ -92,7 +92,7 @@ function MyAccount() {
 
   return (
     <Layout>
-      <h1 className="font-medium text-xl text-center mb-6 w-80">My account</h1>
+      <h1 className='font-medium text-xl text-center mb-6 w-80'>My account</h1>
       {renderView()}
     </Layout>
   )
